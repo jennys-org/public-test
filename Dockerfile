@@ -7,3 +7,5 @@ RUN go mod download -x && \
     go build -o /bin/client ./cmd/client && \
     go build -o /bin/server ./cmd/server
 ENTRYPOINT [ "/bin/server" ]
+
+random stuff
